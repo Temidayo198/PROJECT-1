@@ -52,17 +52,42 @@ Select Product, sum([Total_Sales]) as Total_SalesbyProduct from [dbo].[LITA Caps
 where Product is not null
 group by product order by Total_SalesbyProduct
 
+```
+
+```SQL
 Select Region, count([Total_Sales]) as Total_SalesbyRegion from [dbo].[LITA Capstone Dataset (1) CSV]
 where Region is not null
 group by Region order by Total_SalesbyRegion
+
+```
+
+```SQL
 
 select sum([Total_Sales]) as Highest_selling_Product, Product from [dbo].[LITA Capstone Dataset (1) CSV]
 where Product is not null 
 group by product order by Highest_selling_Product  desc
 
+```
+
+
+```SQL
+select month([Order_Date]) AS sale_month,
+sum([Total_Sales]) AS monthly_sales from [dbo].[LITA Capstone Dataset (1) CSV]
+where year([Order_Date]) = 2024
+group by month([Order_Date]) order by sale_month
+
+```
+
+```SQL
 Select top 5 [Customer_Id],
 sum(Total_Sales) as Total_Purchase_amount from [dbo].[LITA Capstone Dataset (1) CSV]
 group by [Customer_Id] order by Total_Purchase_amount desc
+
+```
+
+```SQL
+Select [Product] from [dbo].[LITA Capstone Dataset (1) CSV]
+where [Total_Sales] IS NULL and [Order_Date] >= DATEADD(QUARTER, -1, GETDATE())
 
 ```
 
