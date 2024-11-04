@@ -1,4 +1,4 @@
-# Project Title: Understanding Subscribers: Customer Segmentation Analysis for a Subscription Service
+# Project Title: Sales Performance Analysis for a Retail Store
 
 ## Table of Contents
 [Project Overview](#project-overview)
@@ -25,10 +25,9 @@ The project aim to visualize customer segments, subscription trends, and cancell
 ### Project Objectives
 ---
 The goal is to;
-- build a Power BI dashboard that visualizes key customer segments,cancellations, and subscription trends.
-- give insights obtained from the data.
-- give actionable recommendations enhance business strategies and improve customer retention.
-   
+- create a dashboard that visualizes the insights found in Excel and SQL.
+- include a sales overview, top-performing products, and regional breakdowns in the dashboard.
+  
 ### Data Source
 ---
 The dataset used for this analysis was provided by the course facilitator as part of the capstone project for data analysis training.
