@@ -1,4 +1,4 @@
-# Project Title: LITA_DB LIMITED
+# Project Title: Sales Performance Analysis for a Retail Store
 
 ## Table of Contents
 [Project Overview](#project-overview)
