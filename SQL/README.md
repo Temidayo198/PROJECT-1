@@ -14,4 +14,4 @@
 
 ### Project Overview
 ---
-
+The main goal of this project is to analyze sales data from a retail store to gain insights into product performance, customer purchasing behavior, and sales trends over time. Using SQL, this analysis will enable data-driven decisions to improve sales strategies, optimize inventory, and enhance customer satisfaction.
