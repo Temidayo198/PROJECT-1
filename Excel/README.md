@@ -57,7 +57,9 @@ The dataset was downloaded from the Canvas infrastructure and loaded into Excel 
   =AVERAGE(hi)
   ```
 
- 
+ - Data Summarization: create summaries using **`Pivot Tables`** making it easier to identify patterns or issues.
+
+   
 
 
 
