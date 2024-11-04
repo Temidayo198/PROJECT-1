@@ -20,7 +20,7 @@
 ### Project Overview
 ---
 
-The project aim to visualize customer segments, subscription trends, and cancellation patterns to uncover actionable insights that can enhance business strategies and improve customer retention. Using PowerBI for visualization, this dashboard will enable stakeholders to easily track key metrics related to customer behavior and subscription lifecycles.
+The project aim to provide a comprehensive overview of sales performance, including top-performing products, performance, regional sales distribution, and monthly sales trends, enabling data-driven decision-making for stakeholders.
 
 ### Project Objectives
 ---
