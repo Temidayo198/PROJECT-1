@@ -91,5 +91,17 @@ where [Total_Sales] IS NULL and [Order_Date] >= DATEADD(QUARTER, -1, GETDATE())
 
 ```
 
+![Screenshot (41)](https://github.com/user-attachments/assets/02c44943-3646-49f4-8c2e-7ca8341e0560)
+
+![Screenshot (57)](https://github.com/user-attachments/assets/30cc4afb-370d-4082-8e72-0e455712c4e3)
+
+![Screenshot (42)](https://github.com/user-attachments/assets/e75748ee-8f4c-4f41-997b-91f2bf55a8e5)
+
+![Screenshot (50)](https://github.com/user-attachments/assets/40bc499b-4a86-4d7c-b572-407f755e4755)
+
+![Screenshot (43)](https://github.com/user-attachments/assets/bd76bf12-5118-492a-8ff0-3e76e2ca2455)
+
+![Screenshot (51)](https://github.com/user-attachments/assets/128cf4a9-8c3f-46e4-ad71-9aa95afa4308)
+
 
 
