@@ -52,6 +52,18 @@ Select Product, sum([Total_Sales]) as Total_SalesbyProduct from [dbo].[LITA Caps
 where Product is not null
 group by product order by Total_SalesbyProduct
 
+Select Region, count([Total_Sales]) as Total_SalesbyRegion from [dbo].[LITA Capstone Dataset (1) CSV]
+where Region is not null
+group by Region order by Total_SalesbyRegion
+
+select sum([Total_Sales]) as Highest_selling_Product, Product from [dbo].[LITA Capstone Dataset (1) CSV]
+where Product is not null 
+group by product order by Highest_selling_Product  desc
+
+Select top 5 [Customer_Id],
+sum(Total_Sales) as Total_Purchase_amount from [dbo].[LITA Capstone Dataset (1) CSV]
+group by [Customer_Id] order by Total_Purchase_amount desc
+
 ```
 
 
