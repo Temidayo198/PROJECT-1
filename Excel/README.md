@@ -11,6 +11,11 @@
 
 [Data Analysis Process](#data-analysis-process)
 
+[Results](#results)
+
+[Recommendations](#recommendations)
+
+[Conclusion](#conclusion)
 
 ### Project Overview
 ---
@@ -72,6 +77,17 @@ The dataset was downloaded from the Canvas infrastructure and loaded into Excel 
 ![Screenshot (13)](https://github.com/user-attachments/assets/c3197177-3588-4e90-bf9e-74ba83e97f1d)
 
 ![Screenshot (12)](https://github.com/user-attachments/assets/1a802c4d-6887-48c2-af38-0391aafd36a6)
+
+
+### Results
+---
+
+### Recommendations
+---
+
+### Conclusion
+---
+
 
 
    
