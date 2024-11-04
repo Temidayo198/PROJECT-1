@@ -23,7 +23,6 @@ The objective is to;
 - retrieve the total sales for each product category.
 - find the number of sales transactions in each region.
 - find the highest-selling product by total sales value.
-- calculate total revenue per product.
 - calculate monthly sales totals for the current year.
 - find the top 5 customers by total purchase amount.
 - calculate the percentage of total sales contributed by each region.
@@ -37,31 +36,22 @@ The dataset used for this analysis was provided by the course facilitator as par
 ---
 - SQL [Structured Query Language]
   1. For Data import 
-  2. For Cleaning
-  3. For Analysis
+  2. For Analysis
 
   ###  Data Analysis Process
 ---
 
 - Data Import:
-  This include bringing in data into SQL from different sources
+  To prepare the data for analysis in the SQL environment, the original dataset was converted from Excel to a CSV (Comma-Separated Values) format. This format transformation ensured compatibility and ease of import into SQL, allowing for efficient data querying and manipulation.
   
-- Data Cleaning and Preparation:
-This includes handling duplicates, blank cells and text manipulation and extration using **`SQL COMMANDS`** such as;
-1. DDL: **`CREATE`**, **`ALTER`**, **`DELETE`**, **`TRUNCATE`**.
-2. DML: **`INSERT`**, **`UPDATE`**, **`DROP`**.
-3. DQL: **`SELECT`** to fetch data.
-4. TCL: **`ROLLBACK`**, **`COMMIT`**.
-5. DCL: **`GRANT`**, **`REVOKE`**
-
-- Data Analysis Techniques: This involve using analytical functions annd **`SQL CLAUSES`** such as **`WHERE`**, **`TOP`**, **`GROUPBY`**, **`ORDERBY`**, **`HAVING`** to derive insights from data. Functions include;
-  **`SUM()`**, **`AVG()`**, **`MAX()`**,  **`MIN()`**, **`COUNT()`**.
+- Data Analysis Techniques: This involve using analytical functions and **`SQL CLAUSES`** such as **`WHERE`**, **`TOP`**, **`GROUPBY`**, **`ORDERBY`** to derive insights from data. Functions include;
+  **`SUM()`**, **`AVG()`**,  **`COUNT()`**.
 
 ```SQL
-SELECT SUM(PROFIT)  as [TOTAL PROFIT HERO] FROM [dbo].[International Breweries]
-WHERE COUNTRIES = 'NIGERIA' AND YEARS =2017 and brands= 'hero'
-GROUP BY BRANDS
-ORDER BY 1 DESC
+Select Product, sum([Total_Sales]) as Total_SalesbyProduct from [dbo].[LITA Capstone Dataset (1) CSV]
+where Product is not null
+group by product order by Total_SalesbyProduct
+
 ```
 
 
